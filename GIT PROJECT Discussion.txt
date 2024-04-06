@@ -1,0 +1,50 @@
+echo "#sample data">>ReadMe.md
+
+   10  git init
+
+   11  git add ReadMe.md
+
+   12  git commit -m "first file created"
+
+   13  git branch -M  main
+
+   14  git remote add origin https://github.com/ada7git/devops_ada7git.git
+
+   15  git push -u origin main
+
+   16  git add .
+
+   17  git commit -m "second change "
+
+   18  git push4
+****************************************************************************************
+Runbook to casestudy: 
+1. Create a new repository
+2. Push Flask project from local repo to GITHUB 
+3. Created TESTBranch
+4. Individual forking using new repo link
+5. Clone local system with the new repository
+
+Question: TestBranch created on GITHUB is not showing on local after git pull. Later when we checked using git branch -r it was showing and then we checked out it was 
+showing.
+
+
+
+In a team developing a Flask-based calculator application using Git and GitHub, 
+the team lead (TL) and other team members aim to push their code changes and merge them into a single repository to run the application. 
+However, as multiple developers contribute concurrently, there is a risk of conflicting changes occurring during the merge process.
+
+ 
+
+The challenge is to facilitate the seamless integration of all code contributions into a unified
+repository while ensuring that any conflicts that arise are effectively resolved.
+Forking the repository: Each team member forks the main repository to their GitHub account.
+Cloning the forked repository: Team members clone their forked repository to their local machines.
+Creating branches: Each developer creates a new branch for their feature or bug fix.
+Making changes: Developers make necessary changes to their respective branches locally.
+Pushing changes: Developers push their changes to their forked repository on GitHub.
+Creating pull requests: Developers create pull requests from their branches to the main repository.
+
+Reviewing and merging: TL reviews the pull requests, resolves conflicts if any, and merges the changes into the main repository.
+
+
