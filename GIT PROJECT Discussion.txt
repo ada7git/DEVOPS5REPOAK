@@ -16,7 +16,7 @@ echo "#sample data">>ReadMe.md
 
    17  git commit -m "second change "
 
-   18  git push4
+   18  git push
 ****************************************************************************************
 Runbook to casestudy: 
 1. Create a new repository
